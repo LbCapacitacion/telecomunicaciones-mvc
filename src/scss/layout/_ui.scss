@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.barra {
+   margin: 2rem 0;
+
+   @include m.tablet {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .boton {
+      @include m.boton2(v.$azul, v.$blanco);
+      border-radius: 1rem;
+      margin: 0;
+   }
+}

@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+
+.accion{
+    background-color: v.$azulOscuro;
+    padding: 2rem;
+
+    a{
+        color: v.$blanco;
+    }
+}
+.lista{
+    padding-top: 5rem;
+}

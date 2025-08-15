@@ -1,0 +1,40 @@
+@use 'base/variables' as v;
+
+.header h1{
+
+    background-color: #ebeff0;
+    text-align: center;
+    color: v.$moradoMedio;
+}
+
+
+.nav-principal {
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: row;
+    font-size: 2.2rem;
+    a{
+        padding:1rem;
+        color: v.$blanco;
+        font-weight: bold;
+        &:hover{
+        background-color: v.$lila;
+         
+        }
+    }
+    
+    
+}
+
+.nav-bg{
+    background-color: v.$azulMedio;
+
+}
+
+.logo {
+    img {
+        height: calc(100vh - 25rem);
+        object-fit: cover;
+    }
+}
