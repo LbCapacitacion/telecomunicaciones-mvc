@@ -19,7 +19,7 @@
     </form>
 
     <div class="acciones">
-        <a href="/login">¿Ya tienes cuenta? Iniciar Sesion</a>
+        <a href="/">¿Ya tienes cuenta? Iniciar Sesion</a>
         <a href="/crear-cuenta">¿Aun no tienes cuenta? Obtener una</a>
     </div>
 

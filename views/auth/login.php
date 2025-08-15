@@ -10,7 +10,7 @@
                 <img loading="lazy" src="build/img/ciudad-inteligente-futurista-con-tecnologia-de-red-global-5g.jpg" alt="imagen login">
             </picture>
         </div>
-        <form action="/login" class="formulario" method="POST">
+        <form action="/" class="formulario" method="POST">
             <h2>Iniciar sesion</h2>
             
             <?php
