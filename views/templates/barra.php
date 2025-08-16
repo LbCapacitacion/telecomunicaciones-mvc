@@ -2,7 +2,8 @@
     <h1>SERVICIOS Y VENTAS <span></span></h1>
    
     <div class="barra">
-        <h2>Hola: <?php echo $nombre ?? ''; ?></h2>
+        <h2>Hola: <?php echo $nombre ?? ''; 
+        ?></h2>
         <a class="boton" href="/logout">Cerrar Sesion</a>
     </div>
     <div class="contenedor-header nav-bg">

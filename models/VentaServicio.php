@@ -23,6 +23,8 @@ class VentaServicio extends ActiveRecord
 
     public function __construct($args = [])
     {
+        date_default_timezone_set('America/Mexico_City');
+
         $this->id = $args['id'] ?? null;
         $this->fecha = $args['fecha'] ?? date('Y-m-d H:i:s');
         $this->id_cliente = $args['id_cliente'] ?? '';
